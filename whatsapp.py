@@ -4,9 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from supabase import create_client, Client
+from dotenv import load_dotenv
 import time
 import qrcode
 
+load_dotenv()
 # Supabase configuration
 url: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_KEY")
