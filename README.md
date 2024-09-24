@@ -1,6 +1,8 @@
 Установите необходимые библиотеки:
 pip install -r requirements.txt
 
+Запустить Венв
+venv\scripts\activate
 Получите api_id и api_hash на сайте https://my.telegram.org/
 Настройте переменные окружения:
 export TELEGRAM_API_ID="ваш_api_id"
